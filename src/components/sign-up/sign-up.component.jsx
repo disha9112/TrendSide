@@ -1,8 +1,10 @@
 import React from "react";
+
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
 
 import { auth, createUserProfileDocument } from "../../firebase/firebase.utils";
+
 import "./sign-up.styles.scss";
 
 class SignUp extends React.Component {
@@ -22,8 +24,8 @@ class SignUp extends React.Component {
 
     const { displayName, email, password, confirmPassword } = this.state;
 
-    if (password != confirmPassword) {
-      alert("Passwords don't match");
+    if (password !== confirmPassword) {
+      alert("passwords don't match");
       return;
     }
 
@@ -35,12 +37,12 @@ class SignUp extends React.Component {
 
       await createUserProfileDocument(user, { displayName });
 
-      this.state = {
+      this.setState({
         displayName: "",
         email: "",
         password: "",
         confirmPassword: "",
-      };
+      });
     } catch (error) {
       console.error(error);
     }
@@ -56,8 +58,8 @@ class SignUp extends React.Component {
     const { displayName, email, password, confirmPassword } = this.state;
     return (
       <div className="sign-up">
-        <h2 className="title">I do not have an account</h2>
-        <span>Sign up with you email and password</span>
+        <h2 className="title">I do not have a account</h2>
+        <span>Sign up with your email and password</span>
         <form className="sign-up-form" onSubmit={this.handleSubmit}>
           <FormInput
             type="text"
@@ -83,10 +85,9 @@ class SignUp extends React.Component {
             label="Password"
             required
           />
-
           <FormInput
             type="password"
-            name="confirmedPassword"
+            name="confirmPassword"
             value={confirmPassword}
             onChange={this.handleChange}
             label="Confirm Password"
