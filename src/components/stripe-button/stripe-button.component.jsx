@@ -17,7 +17,7 @@ const StripeCheckoutButton = ({ price }) => {
       name="TrendSide"
       billingAddress
       shippingAddress
-      image=""
+      image="https://user-images.githubusercontent.com/78133928/139527587-111f5623-590d-4c5e-9333-aa9b7958801b.png"
       description={`Your total: $${price}`}
       amount={priceForStripe}
       panelLabel="Pay Now"
