@@ -8,7 +8,7 @@
   <h1 align="center">TrendSide</h1>
 
   <p align="center">
-    All the latest trends in clothing, curated for you in one place!
+    All the latest clothing trends, curated for you in one place!
   </p>
 </div>
 
@@ -22,8 +22,6 @@
 
 https://trendside.herokuapp.com/
 
-</br>
-
 <!-- ABOUT THE PROJECT -->
 
 # About
@@ -34,15 +32,13 @@ Users can create an account to sign up, or sign in directly with a Google accoun
 
 In addition to the various catalogs and diversity of items provided, users have the ability to add to or remove items from their cart.
 
-They can access the checkout page from the cart to access their added items and grand total. A payment gateway has been used to ensure secure and processing of payments.
-
-</br>
+They can access the checkout page from the cart to access their added items and the grand total. A payment gateway has been used to ensure secure and successful processing of payments.
 
 <!-- FEATURES IMPLEMENTED -->
 
 # Features Implemented
 
-- Google and user authentication using Firebase
+- User authentication using Firebase
 - Homepage containing the catalogs
 - Catalog-wise pages containing information about the clothing items
 - Add to Cart feature for each item
@@ -50,14 +46,12 @@ They can access the checkout page from the cart to access their added items and 
 - Secure payment gateway integrated using Stripe API
 - Session storage using Redux Persist
 
-</br>
-
 <!-- BUILT WITH -->
 
 # Built With
 
 - HTML
-- Sass
+- SCSS
 - JavaScript
 - React
 - Redux
@@ -65,8 +59,6 @@ They can access the checkout page from the cart to access their added items and 
 - Reselect
 - Redux Persist
 - Stripe API
-
-</br>
 
 <!-- GETTING STARTED -->
 
