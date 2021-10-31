@@ -73,9 +73,10 @@ They can access the checkout page from the cart to access their added items and 
 
 3. Open the folder containing the cloned repository
 4. Run the project and start working locally
-   ```sh
-   npm install
-   ```
+
+```sh
+  npm install
+```
 
 <!-- ACKNOWLEDGMENTS -->
 
