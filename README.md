@@ -68,14 +68,14 @@ They can access the checkout page from the cart to access their added items and 
 2. Clone the repository
 
 ```sh
- git clone https://github.com/disha9112/TrendSide.git
+git clone https://github.com/disha9112/TrendSide.git
 ```
 
 3. Open the folder containing the cloned repository
 4. Run the project and start working locally
 
 ```sh
-  npm install
+npm install
 ```
 
 <!-- ACKNOWLEDGMENTS -->
