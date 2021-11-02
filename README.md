@@ -72,10 +72,16 @@ git clone https://github.com/disha9112/TrendSide.git
 ```
 
 3. Open the folder containing the cloned repository
-4. Run the project and start working locally
+4. Install the npm packages and libraries
 
 ```sh
 npm install
+```
+
+5. Run the project and start working locally
+
+```sh
+npm start
 ```
 
 <!-- ACKNOWLEDGMENTS -->
